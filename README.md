@@ -34,9 +34,9 @@ A simple Intrusion Detection System (IDS) implemented in Java. This tool analyze
    javac Main.java
    ```
 
-2. **Create a Log File:**
+2. **Log File:**
 
-   Create a log file (e.g., `sample.log`) with entries formatted as follows:
+   Log file (e.g., `sample.log`) with entries formatted as follows:
 
    ```text
    <timestamp> <IP> <action>
@@ -47,7 +47,7 @@ A simple Intrusion Detection System (IDS) implemented in Java. This tool analyze
    ```text
    2024-09-16 192.168.1.1 FAILED
    2024-09-16 192.168.1.1 FAILED
-   2024-09-16 192.168.1.2 FAILED
+   2024-09-16 192.168.1.2 SUCCESSFUL
    2024-09-16 192.168.1.1 FAILED
    2024-09-16 192.168.1.1 FAILED
    2024-09-16 192.168.1.1 FAILED
@@ -71,5 +71,5 @@ If the application detects suspicious activity, you will see output like:
 
 ```text
 Suspicious activity detected from IP: 192.168.1.1
-Failed login attempts: 6
+Failed login attempts: 5
 ```
