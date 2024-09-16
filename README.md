@@ -23,7 +23,7 @@ A simple Intrusion Detection System (IDS) implemented in Java. This tool analyze
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd Intrusion-Detection-System
+   cd Intrusion-Detection-System/src
    ```
 
 ## Usage
